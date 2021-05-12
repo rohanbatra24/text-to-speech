@@ -44,6 +44,11 @@ button:active {
   transform: scale(0.9);
 }
 
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
+}
+
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
   .container {
